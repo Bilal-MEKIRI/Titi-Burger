@@ -1,0 +1,313 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+  height: 600px;
+  background-image: url(../img/header.png);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#logo{
+  margin: 50px;
+}
+
+#navigation{
+  height: 100px;
+  width: 900px;
+  margin: 50px;
+}
+
+#button{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+nav{
+  width: 100%;
+  height: 50%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section{
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+#section1{
+  display: flex;
+  justify-content: space-between;
+}
+
+#section2{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+#section3{
+  height: 600px;
+}
+
+#section4{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightseagreen;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+#restoImg{
+  height: 100%;
+  flex-basis: 33%;
+  margin: 0 auto;
+}
+#imgResto{
+  width: 100%;
+  height: auto;
+}
+
+
+#titiStory{
+  height: 100%;
+  flex-basis: 60%;
+}
+
+#nosBurgers{
+  height: 100%;
+  flex-basis: 33%;
+}
+
+#menu{
+  height: 100%;
+  flex-basis: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+article{
+  height: 100%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newsLetter1{
+  width: 42%;
+  height: 100%;
+}
+
+#newsLetter2{
+  width: 53%;
+  height: 100%;
+}
+
+footer{
+  background-color: rgb(221, 221, 79);
+  height: 400px;
+  margin: 0 auto;
+}
+
+#footer1{
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer2{
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer3{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer4{
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer5{
+  height: 100%;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+button{
+  margin-right: 70px;
+}
+
+ol{
+  display: flex;
+  justify-content: space-around;
+  padding:20px;
+}
+
+h1{
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2, p{
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#h1section2{
+  margin-bottom: 20px;
+}
+
+.menuImg{
+  margin: 10px 0;
+  height: 70%;
+}
+
+#articleImg{
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.articleButton{
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+h3{
+  margin: 20px;
+  font-size: 1.7rem;
+}
+
+
+
+.footerLink{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.socialMedia{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.navItems{
+  font-size: 1.1rem;
+  color: rgb(228, 211, 22);
+}
+
+.navItems:hover{
+  font-size: 1.1rem;
+  color: rgb(251, 230, 4);
+  transform: scale(1.05);
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(228, 211, 22);
+  border: none;
+  border-radius: 7px;
+  font-size: 1.3rem;
+  transition: 0.2s;
+}
+
+button:hover{
+ cursor: pointer;
+ background-color: rgb(251, 230, 4);
+ transform: scale(1.03);
+ filter: brightness(80%);
+}
+
+a{
+  text-decoration: none;
+}
+
+#newsLetterInscription{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+textarea{
+  height: 50px;
+  margin-right: 20px;
+}
