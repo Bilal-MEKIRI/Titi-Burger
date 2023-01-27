@@ -50,7 +50,7 @@ table {
 
 header{
   height: 600px;
-  background-image: url(../img/header.png);
+  background-image: url(/img/header.png);
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
