@@ -184,6 +184,11 @@ nav{
   margin-left: 60px;
   align-items: center;
 }
+#menu .menu:nth-child(5),
+#menu .menu:nth-child(6),
+#menu .menu:nth-child(7){
+  display: none;
+}
 .menu p{
   color: black;
   text-align: center;
