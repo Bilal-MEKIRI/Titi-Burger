@@ -51,6 +51,8 @@ table {
 header{
   height: 600px;
   background-image: url(/img/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
