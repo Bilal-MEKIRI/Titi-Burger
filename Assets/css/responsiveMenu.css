@@ -1,0 +1,102 @@
+#logo{
+  margin: 50px;
+}
+#logo.hidden{
+  display: none;
+}
+#logoImg{
+  width: 141px;
+  height: 95px;
+}
+
+#logo-mobile{
+  margin: 10px;
+  display: none;
+}
+#logo-mobile.active{
+  display: initial;
+}
+
+#navigation{
+  height: 100px;
+  width: 900px;
+  margin: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+
+.menu-burger{
+  width: 8%;
+  text-align: right;
+  display: none;
+  margin: 10px;
+}
+.menu-burger.active{
+  display: initial;
+}
+.burger-menu-svg, .burger-menu-close-svg{
+  width: 50px;
+  height: 50px;
+  transition: 0.2s;
+  padding: 10px;
+}
+.menu-items{
+  margin: 15px auto;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+.menu-items:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #ee56e4;
+}
+.burger-menu-svg:hover, .burger-menu-close-svg:hover{
+  cursor: pointer;
+  transform: scale(1.06);
+}
+.menu-mobile{
+  padding: 7px;
+  height: fit-content;
+  background-color: lightyellow;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  display: none;
+}
+.menu-list{
+  text-align: center;
+}
+.menu-mobile.active{
+  display: initial;
+}
+.desktop-nav-bar{
+  width: 90%;
+}
+.desktop-nav-bar.hidden{
+  display: none;
+}
+#button{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  color: white;
+}
+
+nav{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+@media (max-width: 800px){
+  header{
+    width: 100%;
+    background-image: none;
+    height: 200px;
+    margin-bottom: 130px;
+  }
+}

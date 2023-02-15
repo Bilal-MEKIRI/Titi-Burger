@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Assets\css\recapitulatif2.css">
+  <link rel="stylesheet" href="Assets\css\responsiveMenu.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kurale&family=Lexend+Deca&family=Metal+Mania&family=Montserrat:wght@500;700&family=Nunito:wght@200;300;400;500;600&family=Outfit:wght@300;400;600&family=Raleway:ital,wght@0,200;1,400&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Serif:ital@1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Assets\css\scrollToTop.css">
@@ -13,9 +14,14 @@
 <body>
   <header>
     <div id="logo">
-      <img id="logoImg" src="\img\Logo-titi-Burger noir.png" alt="Titi burger logo">
+      <img id="logoImg" src="img/Logo-titi-Burger noir.png" alt="Titi burger logo">
     </div>
+    <div id="logo-mobile">
+        <img id="logoImg" src="img/Logo-titi-Burger noir.png" alt="Titi burger logo">
+      </div>
     <div id="navigation">
+      
+      <div class="desktop-nav-bar">
         <div id="button">
           <a href="click&collect.html"><button>Click & Collect</button></a>
           <a href="commande1.html"><button>Livraison</button></a>
@@ -28,7 +34,26 @@
             <a class="navItems" href="index.html#section3Title"><li>Actus</li></a>
           </ol>
         </nav>
+      </div>
+      
+      
+      <div class="menu-burger">
+        <img class="burger-menu-svg" src="images\menu-burger-horizontal-svgrepo-com.svg" alt="">
+      </div>
     </div>
+
+    <div class="menu-mobile">
+      <img class="burger-menu-close-svg" src="images\close-svgrepo-com.svg" alt="">
+      <ul class="menu-list">
+        <li class="menu-items">Click & Collect</li>
+        <li class="menu-items">Livraison</li>
+        <li class="menu-items">La carte</li>
+        <li class="menu-items">Titi story</li>
+        <li class="menu-items">Le resto</li>
+        <li class="menu-items">Actus</li>
+      </ul>
+    </div>
+    
   </header>
   <main>
     <section id="sectionCommande">
@@ -155,6 +180,7 @@
   <div class="scroll-to-top">
     <img class = "arrow-up" src="images\arrow-up-svgrepo-com.svg" alt="">
   </div>
+  <script src="Assets\JS\burgerMenu.js"></script>
   <script src="Assets\JS\scrollToTop.js"></script>
 </body>
 </html>
