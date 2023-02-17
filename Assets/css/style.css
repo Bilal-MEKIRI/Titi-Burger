@@ -434,3 +434,63 @@ textarea{
   margin-right: 20px;
 }
 
+
+
+@media (max-width: 800px){
+  .section{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #section1{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  #section2{
+    display: none;
+  }
+  
+  #section3{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+  }
+  .article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #restoImg{
+    display: none;
+  }
+  #titiStory{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+  }
+  #lineImg{
+    display: none;
+  }
+  #section3Title{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+  }
+  #section4{
+    width: fit-content;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  #lastSection{
+    display: none;
+  }
+}
