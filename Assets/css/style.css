@@ -204,13 +204,13 @@ article{
 
 footer{
   background-color: #102940;
-  height: 350px;
+  height: fit-content;
   margin: 0 auto;
   color: white;
 }
 
 #sectionFooter{
-  height: 400px;
+  height: fit-content;
   display: flex;
   padding: 30px;
   padding-left: 60px;
@@ -243,7 +243,6 @@ footer{
 
 #footer4{
   height: 100%;
-  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -251,10 +250,29 @@ footer{
 
 #footer5{
   height: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.socialMedia{
+  transition: all 0.4s;
+  margin-right: 10px;
+}
+.socialMedia:hover{
+  cursor: pointer;
+  background-color: #ff00ee;
+  border-radius: 80%;
+  transform: scale(1.1);
+}
+
+.footerLink{
+  transition: all 0.2s;
+}
+.footerLink:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  color: #ee56e4;
 }
 
 

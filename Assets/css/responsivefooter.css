@@ -1,0 +1,26 @@
+@media (max-width: 900px) {
+  footer{
+    height: fit-content;
+    width: 100%;
+  }
+  #sectionFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff00ee;
+    text-align: left;
+  }
+  #footer5{
+    display: flex;
+    flex-direction: row;
+  }
+  #footer1, #footer2, #footer3, #footer4, #footer5{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .footerLink{
+    margin: 10px;
+  }
+}
