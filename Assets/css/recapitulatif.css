@@ -385,3 +385,62 @@ button:hover{
  transform: scale(1.03);
  filter: brightness(80%);
 }
+
+
+@media (max-width: 800px) {
+  #sectionCommande{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #nosBurgers{
+    margin: 20px auto;
+    height: fit-content;
+  }
+  #nosBurgers h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  #nosBurgers2{
+    display: none;
+  }
+
+  .line{
+    width: auto;
+    margin: 5px auto;
+  }
+
+  .choixMenu{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+  }
+  .choixMenu h2, p{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .menuImg{
+    margin: 0;
+  }
+  .choixMenu img{
+    margin: 0;
+  }
+  #lastSection{
+    width: 100%;
+    text-align: center;
+  }
+  #section{
+    text-align: center;
+  }
+  #prixCommande{
+    text-align: center;
+  }
+  #paimentButton{
+    width: 50%;
+  }
+}

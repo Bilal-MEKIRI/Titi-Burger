@@ -407,3 +407,60 @@ button:hover{
  transform: scale(1.03);
  filter: brightness(80%);
 }
+
+
+
+@media (max-width: 800px) {
+  #sectionCommande{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #numeroCommande{
+    order: 2;
+    margin: 10px;
+  }
+  #clickAndCollect{
+    order: 1;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+
+  #line{
+    width: auto;
+    margin: 5px auto;
+  }
+
+  #sectionPaiment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #modePaiment{
+    margin-top: 30px;
+    width: 90%;
+  }
+  #promotion{
+    width: 90%;
+  }
+  #codePromo{
+    height: 150px;
+    width: 100%;
+  }
+  #lastSection{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  #section{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    height: fit-content;
+  }
+  #commencerButton{
+    margin: 60px auto;
+  }
+}
